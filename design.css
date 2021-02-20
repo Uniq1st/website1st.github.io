@@ -40,15 +40,12 @@ div {
   font-size: x-large;
   font-family: 'Times New Roman', Times, serif;
 }
-.menuitem: :hover{
+.menuitem:hover {
   display: inline-block;
   height: 50px;
   width: 2000px;
   color: white;
-  border: 2px solid ;
-  background-color: blue;
-  font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
+  
 
 }
 img {
