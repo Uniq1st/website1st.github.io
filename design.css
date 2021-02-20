@@ -1,0 +1,62 @@
+h1 {
+    color: red;
+    font-size: large;
+}
+
+a:link, a:visited {
+  background-color: white;
+  color: black;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
+}
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 4px;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+div {
+  height: 50px;
+  width: 2000px;
+  color: white;
+  border: 2px solid ;
+  background-color: blue;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+  height: 50px;
+  width: 2000px;
+  color: white;
+  border: 2px solid ;
+  background-color: blue;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.menuitem {
+    height: 50px;
+  width: 2000px;
+  color: white;
+  border: 2px solid ;
+  background-color: blue;
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+img {
+  border: solid black;
+}
