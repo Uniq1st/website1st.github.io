@@ -28,23 +28,21 @@ img {
 img:hover {
   box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-div {
-
-  
-}
 
 .menu{
+  width: 200%;
+  color: white;
+  background-color: blue;
+  font-family: 'Times New Roman', Times, serif;
  
 }
- 
+ .menuitem{
+   font-size: large;
+   padding: 15px;
+   display: inline-block;
+ }
 
 .menuitem:hover {
-  height: 50px;
-  width: 2000px;
-  color: white;
-  border: 2px solid ;
   background-color: blue;
-  font-size: x-large;
-  font-family: 'Times New Roman', Times, serif;
-  
+
 }
