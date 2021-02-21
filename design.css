@@ -22,8 +22,8 @@ img:hover {
 }
  .menuitem{
    font-size: large;
-   padding: 15px;
-   display: inline-block;
+   padding: 25px;
+   display: inline-flexbox;
  }
 
 .menuitem:hover {
