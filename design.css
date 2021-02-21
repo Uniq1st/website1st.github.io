@@ -1,5 +1,5 @@
 h1 {
-    color: red;
+    color: black;
     font-size: large;
 }
 
@@ -8,7 +8,7 @@ a:link, a:visited {
   color: black;
   border: 2px solid green;
   padding: 10px 20px;
-  text-align: center;
+  text-align: right;
   text-decoration: none;
   display: inline-block;
 }
@@ -33,7 +33,18 @@ div {
 }
 
 .menu{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
+ 
+
 .menuitem:hover {
   height: 50px;
   width: 2000px;
@@ -43,8 +54,4 @@ div {
   font-size: x-large;
   font-family: 'Times New Roman', Times, serif;
   
-
-}
-img {
-  border: solid black;
 }
