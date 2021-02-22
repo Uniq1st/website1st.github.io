@@ -34,11 +34,9 @@ header a {
 
 
 header li{
-  float: left;
-  display: inline;
+  float:left;
+  display:inline;
   padding: 0 20px 0 20px;
-
-
 }
 
 header #branding {
@@ -73,6 +71,17 @@ header a :hover{
   color: white;
 }
 
-img{
+#boxes{
+  margin-top:20px;
+}
 
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  width:90px;
 }
