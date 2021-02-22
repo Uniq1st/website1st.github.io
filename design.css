@@ -1,32 +1,80 @@
-h1 {
-    color: black;
-    font-size: large;
+body{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+
+
 }
 
-img {
-  border: 1px solid #ddd; 
-  border-radius: 4px; 
-  padding: 5px; 
-  width: 150px; 
-}
-img:hover {
-  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+
 }
 
-.menu{
-  width: 200%;
+header{
+  background: black;
   color: white;
-  background-color: blue;
-  font-family: 'Times New Roman', Times, serif;
- 
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: thin 3px solid;
+
 }
- .menuitem{
-   font-size: large;
-   padding: 25px;
-   display: inline-flexbox;
- }
 
-.menuitem:hover {
-  background-color: blue;
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
 
+  
+}
+header ul{
+  margin: 0;
+  padding: 0;
+
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+
+}
+
+header #branding {
+  float: left;
+
+}
+
+header #branding h1{
+  margin: 0;
+
+}
+header nav{
+  float: right;
+  margin-top: 10px;
+
+}
+header .highlight, header .currnt a {
+  color: green;
+  font-weight: bold;
+
+}
+header a :hover{
+  color: blue;
+  font-weight: bold;
+
+}
+
+#showcase{
+  min-height: 400px;
+  background:url('showcase.jpg') no-repeat;
+  text-align: center;
+  color: white;
 }

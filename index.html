@@ -2,35 +2,85 @@
 <html lang="en">
   
     <head>
-    <title> Unique's Website</title>
+    <title> <span class="highlight">Unique's</span> Website | Welcome </title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio">
+    <meta name="keywords" content="HTML, CSS, Python">
+    <meta name="Unique Upreti" content="Resimes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="design.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     </head>
 
     <body>
-      <div class ="menu" >
-      <a href = "https://uniq1st.github.io/website1st.github.io/"> Home </a>
-      <a href = "https://www.linkedin.com/in/uniq1st/"> LinkedIn</a>
-      <a href = "https://www.facebook.com/uniqueupret/"> Facebook</a>
-      <a href = "https://github.com/Uniq1st"> Github</a>
-      <a href = "https://github.com/Uniq1st/website1st.github.io/blob/main/Third.html"> Assignments</a>
-      <a class = "menuitem"> Setting</a>
-</div>
+      <header>
+          <div class="container">
+            <div id="branding">
+              <h1> Unique's Portfolio</h1>
+            </div>
+            <nav>
+              <ul>
+                <li class="current"> <a href="index.html">Home</a></li>
+                <li> <a href="About.html">About</a></li>
+                <li> <a href="Second.html">Careers</a></li>
+                <li> <a href="Third.html">Assignments</a></li>
+                <li> <a href="#">Settings</a></li>
+              </ul>
+            </nav>
+          </div>
+      </header>
 
-        
-        <h1> Unique's Portfolio </h1>
-          <p>
-            Unique Upreti Born and raised in Nepal, Unique moved to the U.S. to pursue a better life. He graduated from LaGuardia in spring 2019 with an A.S degree majoring in Computer Science. He currently attends John Jay College of Criminal Justice and is pursuing his bachelor’s degree in Computer Science and Information Security.
+      <section id="showcase"> 
+        <div class="container">
+          <h1> Personal Development Portfolio</h1>
+          <p>This is my personal website where i post all my works. I keep up with my work by uploading all my works in this website.</p>
+        </div>
+      </section>
 
-            He previously worked as a Peer Advisor at LaGuardia as well as a President’s Society member before joining the SSM team. Unique has a passion for helping others and in 2015 volunteered with the Nepal Red-Cross Society helping those affected by the devastating earthquake that struck his home country. He plans to use his computer science degree and interest in business to help him achieve his goal of becoming an entrepreneur as well as making an impact on the world.
-            
-            As an SSM, Unique plans to help new students by sharing his own knowledge and experiences to assist them in achieving their goals and graduating on time. 
-            
-          </p>
-            
+      <section id="newsletter">
+        <div class="container">
+          <h1> Please subscribe to my newsletter</h1>
+          <form>
+            <input type="email" placeholder="Enter emalil here">
+            <button type="submit" class="button_1" > Subscribe</button>
+          </form>
+        </div>
+      </section>
 
-                  <img src= "IMG_1440.jpg"/>
-                  
+      <section id = "boxes">
 
-        </body>
+        <div class="container">
+          <div class = "box">
+            <img src="Facebook-logo.png">
+            <h3> Facebook </h3>
+            <p>Send me friend request in Facebook.</p>
+          </div>
+
+          <div class = "box">
+            <img src="instagram image.webp">
+            <h3> Instagram </h3>
+            <p>Please follow me on Instagram.</p>
+          </div>
+
+          <div class = "box">
+            <img src="linkedin.png">
+            <h3> LinkedIn </h3>
+            <p>Please Connect  on LinkedIn.</p>
+          </div>
+
+          <div class = "box">
+            <img src="GitHub logo.png">
+            <h3> Github </h3>
+            <p>Visit me on github as well.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p> Unique Upreti, Copywright &copy; 2020</p>
+      </footer>
+
+ 
+
+    </body>
 </html>
