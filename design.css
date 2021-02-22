@@ -8,7 +8,7 @@ body{
 }
 
 .container{
-  width: 10%;
+  width: 50%;
   margin: auto;
   overflow: hidden;
 
@@ -71,4 +71,8 @@ header a :hover{
   background:url('showcase.jpg') no-repeat;
   text-align: center;
   color: white;
+}
+
+img{
+
 }
